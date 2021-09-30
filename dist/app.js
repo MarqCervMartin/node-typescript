@@ -4,7 +4,8 @@ var UserDomain;
     UserDomain["STORE"] = "STORE";
     UserDomain["NOT_FOUND"] = "NOT_FOUND";
 })(UserDomain || (UserDomain = {}));
-const domain = 'NOT_FOUND';
+const domain = 'Store/Club-Pharmacy & Optical';
+//Old example
 const parseUserDomain = (userDomain) => {
     const domain = userDomain.toUpperCase();
     if (domain.includes(UserDomain.STORE)) {
@@ -17,42 +18,21 @@ const parseUserDomain = (userDomain) => {
         return UserDomain.NOT_FOUND;
     }
 };
-/*
-const parseUserDomainxD = (userDomain: string): UserDomain => {
-    const domain = userDomain.toUpperCase();
-  let enumValue:UserDomain;
-  for (let element in UserDomain) {
-    //console.log('Element ', UserDomain[element as EnumKeyType])
-    if (domain.includes(UserDomain[element as EnumKeyType])){
-      enumValue = UserDomain[element as EnumKeyType];
-      return enumValue
-    } else {
-      enumValue = UserDomain.HOME_OFFICE;
-      return enumValue
+//New example
+const newParseUserDomain = (userDomain) => {
+    const domaIn = userDomain.toUpperCase();
+    const keys = Object.values(UserDomain).filter((el) => domaIn.includes(el));
+    let val = keys.map((ele) => ele === UserDomain.NOT_FOUND ? UserDomain.HOME_OFFICE : ele);
+    if (val.length > 0) {
+        return val[0];
     }
-  }
-};
-*/
-const parseUserDomainxD = (userDomain) => {
-    const domain = userDomain.toUpperCase();
-    let enumValue;
-    for (let element in UserDomain) {
-        //console.log('Element ', UserDomain[element as EnumKeyType])
-        if (domain.includes(UserDomain[element])) {
-            enumValue = UserDomain[element];
-            return enumValue;
-        }
-        else {
-            enumValue = UserDomain.HOME_OFFICE;
-            return enumValue;
-        }
+    else {
+        return UserDomain.HOME_OFFICE;
     }
 };
-//let valueParse = parseUserDomain(xd);
-//console.log('ParseDomain ', valueParse);
-let domainfor = parseUserDomainxD(domain);
-console.log('Domain For ', domainfor);
-//inverse type
+let par = newParseUserDomain(domain);
+console.log('Include ', par);
+//inverse type --- ignored
 let value = Object.values(UserDomain).includes(domain.toUpperCase());
 console.log(value);
 //# sourceMappingURL=app.js.map
