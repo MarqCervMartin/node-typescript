@@ -36,4 +36,12 @@ nombreVariable = Valor
 - Null
 - Undefined
 - Never
--Object
+- Object
+
+## Tipo Any
+
+- Usado para capturar valores dinámicos.
+- Los valores pueden cambiar de tipo en el tiempo: 
+    - APIs externas.
+    - Librerías de terceros.
+

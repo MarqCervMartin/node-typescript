@@ -1,1 +1,2 @@
-console.log('Hello TS');
+"use strict";
+console.log('Hello TS!');
