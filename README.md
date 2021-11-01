@@ -45,3 +45,12 @@ nombreVariable = Valor
     - APIs externas.
     - Librerías de terceros.
 
+## Tipo Void
+
+Void es lo opuesto a any representa la ausencia de tipo, usualmente usado para el tipo de retorno de funciones.
+
+## Tipo Never
+Representa el tipo de valor que nunca ocurre
+- Funciones que lanzan exepciones
+- Funciones que nunca retornan un valor
+

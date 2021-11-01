@@ -1,4 +1,3 @@
-"use strict";
 // Explicit Type
 var idUser;
 idUser = 1; //number
@@ -11,6 +10,6 @@ otherId = '1';
 //otherId = true;
 console.log('otherId ', otherId);
 var surprise = 'hello TS';
-surprise.sayHello(); //Error
+//surprise.sayHello(); //Error
 var res = surprise.substring(6);
 console.log('res', res);
