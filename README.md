@@ -64,3 +64,10 @@ Object vs object
 
 - Object: instancia de la clase Object de javascript.
 - object: tipo para valores no primitivos
+
+## Array
+Estructura que permite contener un conjunto de valores.
+
+Usa dos notaciones: [] y Array<tipo>
+
+A los carácteres <> se les conoce como genéricos.
