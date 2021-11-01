@@ -56,3 +56,11 @@ Representa el tipo de valor que nunca ocurre
 
 ## Tipo null y undefined
 En typescript ambos valores tienen sus respectivos tipos. Se pueden asumir como subtipos del tipo any
+
+## Tipo object
+object es el tipo de dato que represenya un valor no primitivo. Es el tipo variable que no sea number, boolean, null, undefined, etc.
+
+Object vs object
+
+- Object: instancia de la clase Object de javascript.
+- object: tipo para valores no primitivos
