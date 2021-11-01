@@ -1,3 +1,4 @@
+"use strict";
 console.log('Types of TypeScriopt');
 //*** Number
 //Explicit

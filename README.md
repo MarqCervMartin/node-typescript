@@ -54,3 +54,5 @@ Representa el tipo de valor que nunca ocurre
 - Funciones que lanzan exepciones
 - Funciones que nunca retornan un valor
 
+## Tipo null y undefined
+En typescript ambos valores tienen sus respectivos tipos. Se pueden asumir como subtipos del tipo any

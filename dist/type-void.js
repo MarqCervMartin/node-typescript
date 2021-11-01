@@ -1,3 +1,4 @@
+"use strict";
 // Void 
 // Explicit type
 function showInfo(user) {
@@ -10,9 +11,9 @@ function showFormattedInfo(user) {
 }
 showFormattedInfo({ id: 1, userName: 'mar', firstName: 'park' });
 // Void type, type of datum in variable
-var unusable;
-unusable = null;
-unusable = undefined;
+//let unusable: void;
+//unusable = null;
+//unusable = undefined;
 // Never type
 function handleError(code, message) {
     //Proccess tyou code here
@@ -24,3 +25,11 @@ try {
 }
 catch (error) {
 }
+function sumNumbers(limit) {
+    var sum = 0;
+    while (true) {
+        sum++;
+    }
+}
+// Infinit cycle, never finish
+sumNumbers(10);
