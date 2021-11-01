@@ -71,3 +71,8 @@ Estructura que permite contener un conjunto de valores.
 Usa dos notaciones: [] y Array<tipo>
 
 A los carácteres <> se les conoce como genéricos.
+
+## Tuple
+Las tuplas permiten expresar un arreglo con un número fijo de elementos. Los tipos de datos son conocidos.
+
+
