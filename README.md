@@ -85,3 +85,8 @@ Alias de Tipos, permite crear un alias como nuevo nombre para un tipo.
 
 Tipos Literales, una variable con un tipo literal puede contener únicamente una cadena del conjunto.
 
+## Aserciones de Tipo
+Cuando el programador puede conocer más que TypeScript sobre el valor de una variable, es un mensaje al compilador: "Confía en mí, sé lo que hago"
+
+Se parece al casting de tipos en otro lenguajes de programación pero no es lo mismo. Usa dos sintaxis <Angle Bracket> y variable as
+
