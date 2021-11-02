@@ -78,5 +78,10 @@ Las tuplas permiten expresar un arreglo con un número fijo de elementos. Los ti
 ## Enum
 Los enumerados permiten definir un conjunto de constantes con nombre, tienen la ventaja de adaptarse al contexto de nuestra aplicación.
 
+## Unión de tipos
+En typescript se puede definir una variable con múltiples tipos de datos: Union Type, usando el operador de pipe '|'.
 
+Alias de Tipos, permite crear un alias como nuevo nombre para un tipo.
+
+Tipos Literales, una variable con un tipo literal puede contener únicamente una cadena del conjunto.
 
