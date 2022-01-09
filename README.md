@@ -90,3 +90,9 @@ Cuando el programador puede conocer más que TypeScript sobre el valor de una va
 
 Se parece al casting de tipos en otro lenguajes de programación pero no es lo mismo. Usa dos sintaxis <Angle Bracket> y variable as
 
+
+## Funciones en TypeScript
+
+- Los parámetros en las funciones son tipados.
+- Se pueden definir parámetros opcionales
+- El tipo de retorno puede ser un tipo básico, tipo literal o una combinación de ellos.
